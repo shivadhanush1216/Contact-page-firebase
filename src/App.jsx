@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import { FiSearch } from "react-icons/fi";
 import { IoIosAddCircle, IoMdTrash } from "react-icons/io";
 import { collection, getDocs, onSnapshot } from "firebase/firestore";
-import { db } from "./config/firebase";
+import { firebase, db } from "./config/firebase";
 import ContactCard from "./components/ContactCard";
 import { Modal } from "./components/Modal";
 import { AddAndUpdateContact } from "./components/AddAndUpdateContact";
